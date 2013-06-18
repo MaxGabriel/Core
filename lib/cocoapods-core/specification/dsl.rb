@@ -300,25 +300,6 @@ module Pod
         :container      => Array,
       }
 
-      #------------------#
-
-      # @!method documentation=(documentation)
-      #
-      #   Additional options to pass to the
-      #   [appledoc](http://gentlebytes.com/appledoc/) tool.
-      #
-      #   @example
-      #
-      #     spec.documentation = { :appledoc => ['--no-repeat-first-par',
-      #                                          '--no-warn-invalid-crossref'] }
-      #
-      #   @param  [Hash{Symbol=>Array<String>}] documentation
-      #           Additional options to pass to the appledoc tool.
-      #
-      root_attribute :documentation, {
-        :container => Hash,
-      }
-
       #-----------------------------------------------------------------------#
 
       # @!group Platform
